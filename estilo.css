@@ -1,0 +1,38 @@
+/*
+	Autor: João Pedro Coelho de Sousa RA:174456
+*/
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border-radius:20px;
+	width: 50px;
+}
+
+td, th{
+	border: 3px solid black;
+	padding: 50px;
+	font-size: 30px;
+  }
+
+h1, h2{
+	 text-align: center
+}
+
+
+input[type=button]{
+	padding: 5px;
+  	padding: 5px;
+  	border-radius: 5px;
+	color: black;
+}
+
+.reiniciar{
+	margin-left: 40%;
+	float: left;
+}
+
+.vez{
+	margin-left: 100px;
+}

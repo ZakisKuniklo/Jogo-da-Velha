@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	 <script  src="jogo.js"></script>
+	<title> Jogo da velha</title>
+</head>
+<body>
+
+	<h1>Jogo da velha</h1>
+	<input type="button" name="reinicar" class="reiniciar" value="novo jogo" onclick="document.location.reload(true);">
+	<input type="button" name="vez" id="btvez" class="vez" value="Começa:X" onclick="mudarInicio()"><br><br>
+	<table>
+		<tr>
+			<td id="casa1" onclick="selecionarCasa(0)">1</td>
+			<td id="casa2" onclick="selecionarCasa(1)">2</td>
+			<td id="casa3" onclick="selecionarCasa(2)">3</td>
+		</tr>
+		<tr>
+			<td id="casa4" onclick="selecionarCasa(3)">4</td>
+			<td id="casa5" onclick="selecionarCasa(4)">5</td>
+			<td id="casa6" onclick="selecionarCasa(5)">6</td>
+		</tr>
+		<tr>
+			<td id="casa7" onclick="selecionarCasa(6)">7</td>
+			<td id="casa8" onclick="selecionarCasa(7)">8</td>
+			<td id="casa9" onclick="selecionarCasa(8)">9</td>
+		</tr>
+	</table>
+	<h2 id="resultado">O resultado aparecerá aqui</h2>
+</body>
+</html>
